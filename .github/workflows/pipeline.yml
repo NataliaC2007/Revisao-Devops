@@ -32,4 +32,10 @@ jobs:
     - name: Executar o projeto
       run: java -cp .Teste
       
+      #Exemplo 1 para versionamento
+    - name: Gerando Versão
+      run: echo ${{ github.run_number }}
+      #colocar para utilizar o script do docker e colocar na tag latest
+      
+      #Exemplo 2 para versionamento
           
